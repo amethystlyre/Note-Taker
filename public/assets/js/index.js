@@ -33,6 +33,14 @@ const getNotes = () =>
     },
   });
 
+const getNote = () =>
+  fetch('/api/note', {
+    method: 'GET',
+    headers: {
+      'Content-Type': 'application/json',
+    },
+  });
+
 const saveNote = (note) =>
   fetch('/api/notes', {
     method: 'POST',
@@ -99,6 +107,7 @@ const handleNoteDelete = (e) => {
 const handleNoteView = (e) => {
   e.preventDefault();
   activeNote = JSON.parse(e.target.parentElement.getAttribute('data-note'));
+  console.log(activeNote);
   renderActiveNote();
 };
 
@@ -181,3 +190,6 @@ if (window.location.pathname === '/notes') {
 }
 
 getAndRenderNotes();
+
+
+

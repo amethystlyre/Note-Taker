@@ -1,6 +1,12 @@
 [
     {
-        "title":"Test Title",
-        "text":"Test text"
+        "title": "Note 1",
+        "text": "Make phone call on Monday\n",
+        "id": "fd92047e-2d64-4b0c-abc6-bd11a1e3ca4f"
+    },
+    {
+        "title": "Note 2",
+        "text": "Lunch with colleague on Tuesday",
+        "id": "5bfb8a2b-577e-43d1-aa34-a6dda95c1f69"
     }
 ]
