@@ -16,7 +16,7 @@ notes.get('/', (req, res) => {
     readFromFile('./db/db.json').then((data) => res.json(JSON.parse(data)));
   });
 
-// GET Route for a specific note based on note id
+// GET Route for retrieving a specific note based on note id
 notes.get('/:id', (req, res) => {
     const noteId = req.params.id;
 
@@ -63,7 +63,7 @@ notes.post('/', (req, res) => {
     }
   });
 
-// DELETE Route for removing a note based on given id
+// DELETE Route for removing a note in the DB based on given id
 notes.delete('/:id', (req, res) => {
     const noteId = req.params.id;
     readFromFile('./db/db.json')

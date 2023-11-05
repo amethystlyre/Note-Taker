@@ -1,3 +1,5 @@
+//Helper function for reading, writing and upating files
+//Copied from student mini project wk11
 const fs = require('fs');
 const util = require('util');
 
