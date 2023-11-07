@@ -1,12 +1,12 @@
 [
     {
-        "title": "Note 1",
-        "text": "Make phone call on Monday\n",
-        "id": "fd92047e-2d64-4b0c-abc6-bd11a1e3ca4f"
+        "title": "My first sample note",
+        "text": "My first sample note",
+        "id": "a767c69c-24d6-4180-a377-6edf61c6e4a2"
     },
     {
-        "title": "Note 2",
-        "text": "Lunch with colleague on Tuesday",
-        "id": "5bfb8a2b-577e-43d1-aa34-a6dda95c1f69"
+        "title": "Phone call reminder",
+        "text": "Call the bank on Friday",
+        "id": "e97909ee-8929-445a-91e9-8edbbb2181f4"
     }
 ]
